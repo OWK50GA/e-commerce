@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: black;
+  padding: 1.2% 0;
+}
+
+.navbar nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 17px;
+  align-items: center;
+}
+
+.navlink {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* SHOP */
+
+.shop, .cart {
+  width: 90%;
+  margin: auto;
+}
+
+.shopTitle {
+  margin: 4% auto;
+}
+
+.shopTitle h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.products, .cart-items {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4%;
+  background: #fff;
+}
+
+.product {
+  padding: 5% 0;
+}
+
+.product img {
+  width: 345px;
+  height: 350px;
+}
+
+.product .product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-description p {
+  padding: 1.6% 0;
+}
+
+.product-description button {
+  margin: 2% auto;
+  padding: 4%;
+  border-radius: 7%;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+.product-description button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.product-description .add-to-cart {
+  display: flex;
+  justify-content: center;
+}
+
+/* ADD TO CART */
+
+.cart, .cart-items {
+  background-color: #f9f8fe;
+}
+
+.countHandler {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.countHandler input {
+  width: 20%;
+  text-align: center;
+}
+
+.countHandler button {
+  margin: 0;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% auto;
+  gap: 15px;
+}
+
+.checkout div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.checkout button {
+  padding: 2% 5%;
+  background-color: #000000;
+  color: #fff;
+  width: 190px;
+  border-radius: 5px;
+}
